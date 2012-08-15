@@ -1,0 +1,70 @@
+git config --global user.name "Your Name"
+git config --global user.email your.email@example.com
+git config --global alias.co checkout
+git config --global core.editor "subl -w"
+
+lokales git repo erstellen
+git init
+
+ein besseres .gitignore file
+///////////////////////////////////////
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+//////////////////////////////////////
+
+dateien hinzufuegen
+git add .
+
+aktuellen stand speichern
+git commit -m "init commit"
+
+kurzform:
+git commit -am "init commit"
+
+aktuellen status abfragen
+git status
+
+in den commit log gucken
+git log
+
+wozu das ganze?
+ein beispiel 
+
+rm config -rf	#=> loescht den ordner config
+
+oh snapp was nun?
+git checkout -f => wir sind wieder beim letzen commit ! -f fuer force
+
+neuen branch erstellen
+git checkout -b mein_zweig
+
+gucken welche branche es lokal gibt und in welchem man gerade ist
+git branch
+ausgabe:
+> master
+> *mein_zweig
+
+2 branches mergen
+git checkout master
+git merge mein_zweig
+
+einen branch loeschen
+git branch -d mein_zweig
+
+auf einen remote server den aktuellen stand hochladen
+git push

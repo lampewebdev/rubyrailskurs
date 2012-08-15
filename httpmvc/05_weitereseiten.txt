@@ -1,0 +1,8 @@
+www.rubyonrails.org
+www.ruby-lang.org
+guides.rubyonrails.org !!!!
+api.rubyonrails.org << braucht man IMMER!
+ruby-toolbox.org 
+railscasts.org
+railsbuch.de
+http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
