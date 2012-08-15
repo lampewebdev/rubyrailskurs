@@ -42,3 +42,27 @@ rails generate scaffold User name:string email:string
 rake db:migrate
 rake routes
 rails s
+
+rails generate scaffold Micropost content:string user_id:integer
+rake db:migrate
+rake routes
+rails s
+
+app/models/user.rb
+class User < ActiveRecord::Base
+  attr_accessible :email, :name
+  has_many :microposts
+end
+
+app/models/micropost.rb
+class Micropost < ActiveRecord::Base
+  attr_accessible :content, :user_id
+  belongs_to :user
+  validates :content, :length => { :maximum => 140 }
+end
+
+rails console
+
+index.html austauschen
+rails g controller Welcome index
+rm public/index.html
