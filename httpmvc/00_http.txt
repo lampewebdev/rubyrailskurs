@@ -7,3 +7,5 @@ HTTP Verb			Path								action						used for
 	GET					/photos/:id/edit		edit					return an HTML form for editing a photo
 	PUT					/photos/:id					update				update a specific photo
 	DELETE			/photos/:id					destroy				delete a specific photo
+
+	#restful !
