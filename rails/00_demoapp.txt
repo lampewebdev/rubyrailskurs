@@ -64,5 +64,8 @@ end
 rails console
 
 index.html austauschen
-rails g controller Welcome index
-rm public/index.html
+$ rails g controller Welcome index
+$ rm public/index.html
+
+routes.rb line 57
+$ root :to => 'welcome#index'
