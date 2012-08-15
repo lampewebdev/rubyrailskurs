@@ -1,0 +1,6 @@
+best tool denken ist falsch 
+
+
+schleifen
+unless !
+blocks !
