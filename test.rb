@@ -1,6 +1,6 @@
 def title(t)
 	if t == :start
-		run server
+		run server#Pseudecode
 	end
 end
 
