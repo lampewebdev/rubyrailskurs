@@ -1,4 +1,4 @@
-#Anatomy
+d#Anatomy
 class CreateProducts < ActiveRecord::Migration
   def up
     create_table :products do |t|
